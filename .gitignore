@@ -1,0 +1,52 @@
+# OS X filesystem specific
+*~
+.DS_Store
+
+# Java, Scala, Package Files
+*.bak
+*.class
+*.db
+*.ear
+*.jar
+*.off
+*.old
+*.ser
+*.war
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Logs
+*.log
+
+# Eclipse
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/*
+
+# Build junk
+target
+build
+null
+tmp*
+dist
+test-output
+project/boot/
+project/plugins/project
+target/
+lib_managed/
+src_managed/
+test-output/
+comparelogs/
+
+# Test junk
+*.crc
